@@ -1,0 +1,225 @@
+@charset "utf-8";
+
+
+/***********************************************/
+/****************** GENERAL ********************/
+/***********************************************/
+body{
+	background:repeat-y url(../img/background.jpg) center center;
+	color:#000;
+	font-family:Arial;
+	font-size:12px;
+	height: 100%;
+	margin:0; 
+}
+html{
+	 height: 100%; 
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+h1{
+	color:#FFF;
+	background:#74b767;
+	margin:0;
+	font-size:18px;
+}
+p{
+	margin:0;
+}
+table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+	font-size:12px;
+}
+input[type="submit"]{
+	border:1px solid #FFF;
+	background:#508246;
+	padding:5px;
+	color:#FFF;
+	font-weight:bold;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+
+input[type="button"]{
+	border:1px solid #FFF;
+	height:5px;
+	background:#CCC;
+	color:#FFF;
+	font-weight:bold;
+	height:20px;
+	cursor:pointer;
+	width:20px;
+	margin:0;
+}
+
+
+/******************************************/
+/****************** ID ********************/
+/******************************************/
+
+#banner{
+	position:absolute;
+	width:100%;
+	height:80px;
+	background:repeat-x url(../img/banner_background.png);
+	z-index:1;
+	top:0;
+	left:0;
+	right:0;
+}
+
+#commande_recap{
+	width:100%;
+}
+#commande_recap TH{
+	background:#9fd695;
+	color:#FFF;
+	font-weight:bold;
+	padding:10px;
+}
+#commande_recap TD{
+	padding:10px;
+}
+#bloc{
+	text-align:center;
+	font-size:30px;
+	color:#508246;
+	padding:150px 0;
+}
+
+#container{
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+	width:800px;
+}
+
+#contents{
+	background:#f1f1f1;
+	border:8px solid #74b767;
+	border-radius:5px;
+	width:800px;
+	padding:0;
+	
+}
+#header{
+	top:0;
+	position:relative;
+	width:800px;
+	height:80px;
+	z-index:2;
+}
+#identification{
+	float:left;
+	margin-left: 300px;
+	padding: 20px 0;
+	font-size:10px;
+	font-weight:normal;
+	color:#FFF;
+}
+#identification input{
+	background:none;
+	border:none;
+	font-size:10px;
+	font-weight:normal;
+	text-decoration:underline;
+}
+#identification_nom{
+	border: 1px solid #9FD695;
+}
+#logo{
+	width:219px;
+	height:80px;
+	float:left;
+}
+#produit_liste{
+	background:url(../img/background_produit_liste.png);
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#produit_liste TD{
+	padding:10px 5px;
+	border-bottom:1px solid #74b767;
+}
+
+#produit_liste TR{
+}
+
+#footer{
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background:repeat-x url(../img/footer_background.png) bottom center;
+	height:90px;
+	
+}
+
+
+
+/**********************************************/
+/****************** CLASSE ********************/
+/**********************************************/
+.clearfooter {
+   clear: both;
+   height:80px;
+}
+
+.produit_description{
+}
+
+.produit_img{
+	width:80px;
+	height:80px;
+	border:4px solid #9fd695;
+	border-radius:3px;
+	background:#FFFFFF;
+	margin:10px;
+}
+
+.produit_liste_td2{
+	vertical-align:top;
+}
+.produit_liste_td3{
+	color:#f2a141;
+	font-size:24px;
+	width:20%;
+}
+.produit_liste_td4{
+	text-align:center;
+	width:20%;
+}
+
+.produit_prix{
+	border:0;
+	background:none;
+	text-align:center;
+	outline:none;
+	color:#f2a141;
+	font-size:24px;
+	height:24px;
+	width:100px;
+}
+
+.produit_qte{
+	width:60px;
+	border:1px solid #9fd695;
+}
+
+.produit_titre{
+	padding-bottom:10px;
+	font-size:16px;
+	font-weight:bold;
+	color:#508246;
+	border:0;
+	outline:none;
+	background:none;
+}
+
+
